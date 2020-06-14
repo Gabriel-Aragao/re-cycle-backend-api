@@ -1,1 +1,2 @@
-web: node app.ts
+build: 
+web: ts-node src/app.ts

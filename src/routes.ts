@@ -10,6 +10,7 @@ const routes = express.Router();
 /**
  * @resource /itens
  */
+
 routes.get('/itens', itensController.index);
 routes.get('/itens/:id', itensController.show);
 
