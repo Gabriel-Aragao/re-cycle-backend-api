@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "node ts-node-dev src/app.ts",
+    "start": "node src/app.ts",
     "migrations": "knex --knexfile knexfile.ts migrate:latest",
     "seeds": "knex --knexfile knexfile.ts seed:run"
   },
