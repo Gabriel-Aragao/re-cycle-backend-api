@@ -72,7 +72,7 @@
     "forceConsistentCasingInFileNames": true  /* Disallow inconsistently-cased references to the same file. */
   },
   "scripts": {
-    "start": "ts-node src/config/server.ts",
-    "dev": "nodemon -x ts-node src/config/server.ts"
+    "start": "ts-node src/app.ts",
+    "dev": "nodemon -x ts-node src/app.ts"
   }
 }
