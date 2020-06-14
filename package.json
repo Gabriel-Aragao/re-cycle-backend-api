@@ -30,6 +30,7 @@
     "typescript": "^3.9.5"
   },
   "engines": {
-    "node": "12.x"
+    "node": "12.x",
+    "npm": "6.13.4"
   }
 }
