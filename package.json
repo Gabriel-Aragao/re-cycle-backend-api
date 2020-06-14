@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "ts-node-dev src/app.ts",
+    "start": "node ts-node-dev src/app.ts",
     "migrations": "knex --knexfile knexfile.ts migrate:latest",
     "seeds": "knex --knexfile knexfile.ts seed:run"
   },
@@ -30,7 +30,7 @@
     "typescript": "^3.9.5"
   },
   "engines": {
-    "node": "12.x",
+    "node": "12.16.1",
     "npm": "6.13.4"
   }
 }
