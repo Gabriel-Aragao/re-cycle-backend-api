@@ -7,6 +7,11 @@ const itensController = new ItensController();
 
 const routes = express.Router();
 
+routes.get('/', (req, res) => {
+  res.send('<h1>Hello, World!</h1>');
+});
+
+
 /**
  * @resource /itens
  */
